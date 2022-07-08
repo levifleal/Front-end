@@ -22,6 +22,10 @@ form label{
     font-size: 1.1em;
 }
 
+.contato{
+    font-size: .9em;
+}
+
 form input{
     margin-bottom: 20px;
     border: 1px solid #6e6e6e;
