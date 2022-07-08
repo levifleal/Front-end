@@ -5,14 +5,16 @@ main{
     margin: 0 auto;
 }
 
+
+
 form{
     display: flex;
     flex-direction: column;
-    width: 350px;
+    max-width: 400px;
     margin: 40px 0;
     background-color: #cccccc;
     padding: 35px;
-    border: #6e6e6e 2px solid;
+    border: #6e6e6e 2px solid; 
     border-radius: 20px 10px;
 }
 
