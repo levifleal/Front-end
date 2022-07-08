@@ -1,3 +1,8 @@
+@charset "utf-8";
+
+body{
+    background: linear-gradient(#ffffff, #fefefe , #5e5e5e, #3d3d3d );
+}
 
 .banner{
     width: 100%;
@@ -24,9 +29,16 @@
 
 .cont-beneficios{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin: 3em;
+    margin: 3em 0;
+    flex-wrap: wrap;
+}
+
+.lis{
+    justify-items: center;
+    padding: 10px;
+    margin: 1em;
 }
 
 .lista{
@@ -35,8 +47,17 @@
     font-size: 1.1rem;
 }
 
+.lista li::before{
+    content: "\2726 \0020 ";
+}
+
+.imgben{
+    max-width: 500px;
+    flex: 1 1 300px;
+}
+
 .imgbeneficios{
-    width: 60%;
+    max-width: 100%;
 }
 
 .utensilios{
