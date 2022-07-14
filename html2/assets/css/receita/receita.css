@@ -1,0 +1,14 @@
+.receita{
+    background-color: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    width: calc(25% - 5rem);
+}
+
+@media screen and (max-width: 768px) {
+    .receita{
+        flex: 1 1 200px;
+    }
+}
